@@ -2,10 +2,26 @@
 <html>
     <head>
         <title>My First Web Page</title>
+        <style>
+            .globe-in-text small:before {
+                font-family: "Font Awesome 5 Pro";
+                content: "\f0ac";
+            }
+            .attention-in-text small:before {
+                font-family: "Font Awesome 5 Pro";
+                content: "\f671";
+            }
+        </style>
     </head>
     <script src="https://kit.fontawesome.com/343b7f6899.js" crossorigin="anonymous"></script>
     <body>
-        <h1>Hello World Globe <i class="fas fa-globe"></h1>
-        <h1>Hello World Light Bulb <i class="fa-solid fa-lightbulb-exclamation"></i></h1>
+        <p>Hello World Globe <i class="fa-solid fa-globe"></i></h1>
+        <p>Hello World Light Bulb <i class="fa-solid fa-lightbulb-exclamation"></i></h1>
+
+        <br>
+        <p> use class </p>
+        <hr>
+        <div class="globe-in-text"><small><b>World Globe</b></small></div>
+        <div class="attention-in-text"><small><b>Hello World Light Bulb</b></small></div>
     </body>
 </html>
